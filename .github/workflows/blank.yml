@@ -112,7 +112,7 @@ jobs:
             exit 0
           fi
 
-          BATCH_SIZE=5
+          BATCH_SIZE=1
           BATCH_NUM=0
 
           for (( i=0; i<TOTAL; i+=BATCH_SIZE )); do
